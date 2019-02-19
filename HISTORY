@@ -1,7 +1,17 @@
 #################################################
+February 19th 2019
+
+Treemmer_v0.2
+
+- Updated compatibility to joblib v.0.13.1
+- Added two options (-sX and -sRTL) to switch the pruning algorithm during a run
+
+
+
+#################################################
 September 19th 2018
 
 Treemmer_v0.1_beta
 
-- Update compatibility to Joblib 0.12
-- Changed the call of the stop options, now it is possible to call -X and -RTL multiple times in the same run. For example "-X 100 50 -RTL .95" will output a reduced tree with 100 leaves, one with 50 leaves and one with 95% of the original tree length in the same run 
+- Compatible with joblib 0.11 and 0.12
+- Changed the call of the stop options, now it is possible to call -X and -RTL several time in the same run. For example "-X 100 50 -RTL .95" will output a reduced tree with 100 leaves, one with 50 leaves and one with 95% of the originla tree length in the same run 
