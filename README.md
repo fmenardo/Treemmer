@@ -9,4 +9,12 @@ Menardo et al. (2018). Treemmer: a tool to reduce large phylogenetic datasets wi
 
 https://doi.org/10.1186/s12859-018-2164-8.
 
+From version 0.3 Treemmer is compatible with both python 2 and python 3 
+
+Dependencies:
+ETE3
+Joblib
+Numpy
+Matplotlib
+
 Check also treemmer-animate, a script by Thomas Hackl to visualize the "treemming" process: https://github.com/thackl/treemmer-animate
