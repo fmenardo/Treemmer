@@ -1,4 +1,5 @@
 #Treemmer
+# This is the original sofware attached to the publicatio on BMC Bionformatics, more recent releases are available  on https://github.com/fmenardo/Treemmer
 
 #Copyright 2018 Fabrizio Menardo
 
