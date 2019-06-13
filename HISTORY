@@ -1,4 +1,12 @@
 #################################################
+June 13th 2019
+
+Treemmer_v0.3
+
+- Now also compatible with python3
+- Updated compatibility to joblib v.0.13.2
+
+#################################################
 February 19th 2019
 
 Treemmer_v0.2
