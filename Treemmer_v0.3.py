@@ -334,7 +334,7 @@ def write_stop(t,output1,output2):
 def read_list_meta (path_to_list_meta):
 
 	dict_meta = defaultdict(list)
-	with open(path_to_list_meta, 'rb') as f:
+	with open(path_to_list_meta, 'r') as f:
 		reader = csv.reader(f)
 		list_meta = list(reader)
 	list_meta=filter(None, list_meta)
