@@ -143,7 +143,10 @@ def check_protected(leaf_to_prune):
 				tag_counter = tag_counter +1
 		if arguments.verbose > 1:
 			print (str(leaf_to_prune)+ " " + str(tag) + " "+ str(tag_counter))
-		if (arguments.list_meta_count):						# if -lmc option
+
+		if (arguments.list_meta_count):				# if -lmc option
+			if (int(dict_meta_count[tag] == [])):		# if the tag is not present in list_meta_count
+				dict_meta_count[tag] = 0					
 			if tag_counter <= int(dict_meta_count[tag]):
 				warning=1
 		else:
@@ -334,7 +337,7 @@ def write_stop(t,output1,output2):
 def read_list_meta (path_to_list_meta):
 
 	dict_meta = defaultdict(list)
-	with open(path_to_list_meta, 'rb') as f:
+	with open(path_to_list_meta, 'r') as f:
 		reader = csv.reader(f)
 		list_meta = list(reader)
 	list_meta=filter(None, list_meta)
@@ -349,7 +352,7 @@ def read_list_meta (path_to_list_meta):
 
 def read_list_tags (path_to_list_tag):
 	dict_tag= defaultdict(list)
-	with open(path_to_list_tag, 'rb') as f:
+	with open(path_to_list_tag, 'r') as f:
     		reader = csv.reader(f)
     		list_tag = list(reader)
 	list_tag=filter(None, list_tag)
