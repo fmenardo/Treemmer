@@ -69,7 +69,7 @@ def find_N(t,leaf):
 	for n in range(0,len(parent.get_children())):				##this for loop start from parent and climb up max two nodes, if it finds leaves calculate the distances, 
 		if parent.is_root():
 			flag=1
-			break
+		#	break			#this  would stuck the algorithm into a infinite loop when the  root is  polytomy
 		if arguments.verbose==3:							
 			print ("children	" + str(n))
 			print (parent.children[n])
