@@ -408,7 +408,7 @@ def make_plot ():
 
 ############################################################		arguments and command line menu			###########################################33
 
-parser = argparse.ArgumentParser()
+parser = argparse.ArgumentParser(usage="Treemmer_v0.3.py INFILE [options (-h to see all options)]")
 
 parser.add_argument('INFILE',type=str,help='path to the newick tree')
 parser.add_argument('-X','--stop_at_X_leaves', metavar='X', default='0', help='Output reduced tree with X leaves. If multiple values are given Treemmer will produce multiple reduced datsets in the same run' , type =int, nargs='*')
