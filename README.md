@@ -44,13 +44,13 @@ Plot relative tree length decay.
 python3 Treemmer_v0.3.py tree_file
 ```
 
-Prune tree until the realitve tree length is 90% of starting tree.
+Prune tree until the realative tree length is 90% of starting tree.
 
 ```
 python3 Treemmer_v0.3.py tree_file -RTL 0.9
 ```
 
-Prune tree to 100 tips.
+Prune tree down to 100 tips.
 
 ```
 python3 Treemmer_v0.3.py tree_file -X 100
