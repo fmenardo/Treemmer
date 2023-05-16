@@ -41,19 +41,19 @@ singularity exec treemmer_sb/ python3 /Treemmer_v0.3.py -h
 Plot relative tree length decay.
 
 ```
-python3 Treemmer_v0.3.py tree_file
+python3 Treemmer_v0.3.py tree_file.nwk
 ```
 
 Prune tree until the realative tree length is 90% of starting tree.
 
 ```
-python3 Treemmer_v0.3.py tree_file -RTL 0.9
+python3 Treemmer_v0.3.py tree_file.nwk -RTL 0.9
 ```
 
 Prune tree down to 100 tips.
 
 ```
-python3 Treemmer_v0.3.py tree_file -X 100
+python3 Treemmer_v0.3.py tree_file.nwk -X 100
 ```
 
 ## Citation
