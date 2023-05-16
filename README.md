@@ -7,7 +7,7 @@ Here you find the software, the data and scripts used in the manuscript (Influen
 
 From version 0.3 Treemmer is compatible with both python 2 and python 3 
 
-Dependencies:
+You need to install the following dependencies:
 
 ETE3
 
