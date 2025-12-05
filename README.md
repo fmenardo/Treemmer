@@ -1,7 +1,7 @@
 # Treemmer
 Python tool to reduce size and redundancy of phylogenetic datasets
 
-Here you find the software, the data and scripts used in the manuscript (Influenza_data, MTB_data and stochastic_component), and a short tutorial on fine tuning the behaviour of Treemmer with the pruning options.
+Here you find the software, the data and scripts used in the manuscript [https://doi.org/10.1186/s12859-018-2164-8](https://doi.org/10.1186/s12859-018-2164-8), and a short tutorial on fine tuning the behaviour of Treemmer with the pruning options.
 
 ## Installation
 
