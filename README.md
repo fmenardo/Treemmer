@@ -17,7 +17,7 @@ Numpy
 
 Matplotlib
 
-# Use with Bioconda
+### Install with Bioconda
 
 To install from Bioconda, please run the following:
 
