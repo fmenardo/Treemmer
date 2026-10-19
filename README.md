@@ -17,6 +17,21 @@ Numpy
 
 Matplotlib
 
+# Use with Bioconda
+
+To install from Bioconda, please run the following:
+
+```
+conda install -c conda-forge -c bioconda treemmer 
+```
+
+After activating the environment, you can then reference treemer directly as such:
+
+```
+conda activate tremmer
+tremmer -h
+```
+
 ## Use with singularity
 
 Treemmer can be used with singularity (instructions for installation [here](https://docs.sylabs.io/guides/3.0/user-guide/installation.html)).
