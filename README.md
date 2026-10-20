@@ -1,4 +1,7 @@
 # Treemmer
+[![Anaconda-Server Badge](https://anaconda.org/bioconda/treemmer/badges/version.svg)](https://anaconda.org/bioconda/treemmer)
+[![Anaconda-Server Badge](https://anaconda.org/bioconda/treemmer/badges/downloads.svg)](https://anaconda.org/bioconda/treemmer)
+
 Python tool to reduce size and redundancy of phylogenetic datasets
 
 Here you find the software, the data and scripts used in the manuscript [https://doi.org/10.1186/s12859-018-2164-8](https://doi.org/10.1186/s12859-018-2164-8), and a short tutorial on fine tuning the behaviour of Treemmer with the pruning options.
@@ -16,6 +19,21 @@ Joblib
 Numpy
 
 Matplotlib
+
+### Install with Bioconda
+
+To install from Bioconda, please run the following:
+
+```
+conda install -c conda-forge -c bioconda treemmer 
+```
+
+After activating the environment, you can then reference treemer directly as such:
+
+```
+conda activate tremmer
+tremmer -h
+```
 
 ## Use with singularity
 
